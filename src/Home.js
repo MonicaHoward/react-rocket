@@ -36,11 +36,9 @@ const HomeGrid = styled.div`
 `
 const HomeContent = styled.div`
     border-radius: 6px;
-    margin: 100px 100px 100px 200px; 
     ${props =>
     props.primary && css`
         // background: linear-gradient(rgba(255,255, 255, 0.3), rgba(255, 255, 255, 0.3));
-        margin: 100px 200px 100px 200px; 
 
     `};
 `
@@ -52,13 +50,10 @@ const Button = styled.button`
   border-radius: 3px;
   border: 2px solid palevioletred;
   color: palevioletred;
-  font-size: 1.75em;
+  font-size: 2em;
   font-family: 'Londrina Solid', cursive;
-
-  margin: 5% 1em;
+  margin: -50px  100px 50px 240px;
   padding: 0.25em 1em;
-
-
   ${props =>
     props.primary &&
     css`
@@ -71,6 +66,7 @@ const FeatureText = styled.h3`
   color: #FFF;
   font-family: 'Londrina Shadow', cursive;
   font-size: 3em;
+  margin: 100px 100px 100px 200px;
   padding: 0.25em 1em;
 
   ${props =>
@@ -79,7 +75,7 @@ const FeatureText = styled.h3`
       color: white;
       font-family: 'Londrina Solid', cursive;
       font-size: 3em;
-      margin-top -50px;
+      margin-top -130px;
     `};
 `
 
@@ -88,6 +84,7 @@ const SecondaryFeature = styled.h3`
   color: #FFF;
   font-family: 'Londrina Shadow', cursive;
   font-size: 3em;
+  margin: 100px 200px 100px 100px;
   padding-right: 90px;
   padding: 0.25em 1em;
   text-align: center;
